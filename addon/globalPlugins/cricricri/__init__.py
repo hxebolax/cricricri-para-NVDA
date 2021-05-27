@@ -314,7 +314,6 @@ class ProgressThread(wx.Dialog):
 		global IS_WIN_on
 		IS_WIN_on = False
 		gui.messageBox(event,
-
 			# Translators: Title of the dialog box, could not be completed. Error
 			_("Error"), wx.ICON_ERROR)
 		self.Destroy()
