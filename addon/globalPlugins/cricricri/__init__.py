@@ -31,7 +31,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 		self._MainWindows = None
 
-		# Creation of our menu.
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
 		# Translators: Name of the item in the tools menu
 		self.menuItem = self.toolsMenu.Append(wx.ID_ANY, _("&Cambiador de fechas para los manifiestos"))
@@ -39,13 +38,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def terminate(self):
 		try:
-			self.tools_menu.Remove(self.menuItem)
+			self.toolsMenu.Remove(self.menuItem)
 		except Exception:
 			pass
 		try:
 			if not self._MainWindows:
 				self._MainWindows.Destroy()
-		except (AttributeError, RuntimeError):
+		except:
 			pass
 		super().terminate()
 
