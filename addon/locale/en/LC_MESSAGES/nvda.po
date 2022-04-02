@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'cricricri' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'cricricri' '0.2'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2022-03-31 21:16+0200\n"
+"PO-Revision-Date: 2022-04-02 15:58+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: Alberto Buffolino <a.buffolino@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:23 addon\globalPlugins\cricricri\__init__.py:49
+msgid "cricricri"
+msgstr "cricricri"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Complemento para cambiar el puñetero manifiesto"
+msgstr "Add-on to change the bloody manifest"
+
+#. Translators: Name of the item in the tools menu
+#: addon\globalPlugins\cricricri\__init__.py:39
+msgid "&Cambiador de fechas para los manifiestos"
+msgstr "&Date changer for manifests"
+
+#: addon\globalPlugins\cricricri\__init__.py:49
+msgid ""
+"Mostrar la ventana para cambiar la fecha  a los manifiestos de los "
+"complementos"
+msgstr "Show window to change date to add-on manifests"
+
+#. Translators: Title of the plug-in in the main dialogue
+#: addon\globalPlugins\cricricri\__init__.py:82
+msgid "Cambiador de fechas para los manifiestos"
+msgstr "Date changer for manifests"
+
+#. Translators: Label that identifies the list of add-ons
+#: addon\globalPlugins\cricricri\__init__.py:87
+msgid "&Lista de complementos / Fecha en el manifiesto:"
+msgstr "&List of add-ons / Date in the manifest:"
+
+#. Translators: Button name to select all add-ons
+#: addon\globalPlugins\cricricri\__init__.py:99
+msgid "&Seleccionar todos"
+msgstr "&Select all"
+
+#. Translators: Button name to deselect all add-ons
+#: addon\globalPlugins\cricricri\__init__.py:103
+msgid "&Deseleccionar todos"
+msgstr "&Deselect all"
+
+#: addon\globalPlugins\cricricri\__init__.py:112
+msgid "Seleccione versión Mayor:"
+msgstr "Select Major version:"
+
+#: addon\globalPlugins\cricricri\__init__.py:116
+msgid "Seleccione versión Menor:"
+msgstr "Select Minor version:"
+
+#: addon\globalPlugins\cricricri\__init__.py:120
+msgid "Seleccione una revisión:"
+msgstr "Select revision:"
+
+#: addon\globalPlugins\cricricri\__init__.py:124
+msgid "&Aplicar cambios a los manifiestos"
+msgstr "&Apply changes to manifests"
+
+#. Translators: Exit button name
+#: addon\globalPlugins\cricricri\__init__.py:128
+msgid "&Cerrar"
+msgstr "&Close"
+
+#. Translators: Error message warning that no add-on was selected
+#: addon\globalPlugins\cricricri\__init__.py:183
+msgid "Necesita seleccionar por lo menos un complemento."
+msgstr "You have to select at least one add-on."
+
+#. Translators: Title of the dialog box no add-ons selected, Error
+#. Translators: Title of the dialog box, could not be completed. Error
+#: addon\globalPlugins\cricricri\__init__.py:185
+#: addon\globalPlugins\cricricri\__init__.py:318
+msgid "Error"
+msgstr "Error"
+
+#: addon\globalPlugins\cricricri\__init__.py:251
+msgid ""
+"Se cambiaron los manifiestos correctamente.\n"
+"\n"
+"Para que la acción tenga efecto NVDA tiene que reiniciarse.\n"
+"\n"
+"¿Desea reiniciar NVDA ahora?"
+msgstr ""
+"Changed manifests successfully.\n"
+"\n"
+"For the action to take effect NVDA has to be restarted.\n"
+"\n"
+"Do you want to restart NVDA now?"
+
+#: addon\globalPlugins\cricricri\__init__.py:259
+msgid ""
+"Se produjo el siguiente error al cambiar los manifiestos:\n"
+"\n"
+"{}\n"
+"\n"
+"Si el problema persiste informe al autor del complemento CRICRICRI dándole "
+"este error."
+msgstr ""
+"The following error occurred while changing manifests:\n"
+"\n"
+"{}\n"
+"\n"
+"If the problem persists, report the CRICRICRI plugin author by giving him "
+"this error."
+
+#. Translators: Title of the progress dialog
+#: addon\globalPlugins\cricricri\__init__.py:271
+msgid "Cambiando manifiestos"
+msgstr "Changing manifests"
+
+#. Translators: Tag that asks the user to wait
+#: addon\globalPlugins\cricricri\__init__.py:282
+msgid "Espere por favor..."
+msgstr "Please wait..."
+
+#: addon\globalPlugins\cricricri\__init__.py:300
+msgid "Pregunta"
+msgstr "Question"

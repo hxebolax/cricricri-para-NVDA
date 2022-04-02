@@ -1,1 +1,3 @@
-* Compatibilidad con NVDA 2022.1
+* Agregado idioma inglés.
+* Solucionado problema al recargar complementos.
+* Agregada prohibición en pantallas seguras.

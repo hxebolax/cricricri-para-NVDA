@@ -28,10 +28,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
 		# Call of the constructor of the parent class.
 		super(GlobalPlugin, self).__init__()
-		self._MainWindows = None
 
-		if globalVars.appArgs.secure:
-			return
+		self._MainWindows = None
 
 		# Creation of our menu.
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
@@ -41,10 +39,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def terminate(self):
 		try:
+			self.tools_menu.Remove(self.menuItem)
+		except Exception:
+			pass
+		try:
 			if not self._MainWindows:
 				self._MainWindows.Destroy()
 		except (AttributeError, RuntimeError):
 			pass
+		super().terminate()
 
 	@script(gesture=None, description= _("Mostrar la ventana para cambiar la fecha  a los manifiestos de los complementos"), category= _("cricricri"))
 	def script_cricricri(self, event):
@@ -57,6 +60,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			if not self._MainWindows.IsShown():
 				gui.mainFrame.prePopup()
 				self._MainWindows.Show()
+
+if globalVars.appArgs.secure:
+	GlobalPlugin = globalPluginHandler.GlobalPlugin # noqa: F811 
 
 # Creating the Main Window of the Plug-in
 class MainWindows(wx.Dialog):

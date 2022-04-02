@@ -53,3 +53,19 @@ Bien aconsejo actualizar los complementos que salgan ya con los cambios en los m
 Decir igualmente que yo no me responsabilizo si algo se rompe por cambiar los manifiestos ya que hay cientos de complementos y puede haber alguna excepción no contemplada por mi parte.
 
 El uso de este complemento y sus resultados queda exclusivamente bajo la responsabilidad del usuario final.
+
+
+## Traductores y colaboradores:
+
+* Francés: Rémy Ruiz
+* Inglés: Alberto Buffolino
+* Turco: : umut korkmaz
+
+# Registro de cambios.
+## Versión 0.2.1.
+
+* Solucionado un fallo de seguridad en pantallas seguras.
+
+* Solucionado un problema con la recarga de complementos en NVDA.
+ 
+ * Agregado idioma Inglés.

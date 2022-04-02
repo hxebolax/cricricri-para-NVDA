@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'cricricri' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Manifest değiştirici 0.2\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2021-05-25 10:10+0200\n"
+"PO-Revision-Date: 2022-03-21 23:46+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../../globalPlugins\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:23 addon\globalPlugins\cricricri\__init__.py:49
+msgid "cricricri"
+msgstr "Manifest Değiştirici"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Complemento para cambiar el puñetero manifiesto"
+msgstr "Manifest dosyasını değiştirmek için Eklenti"
+
+#. Translators: Name of the item in the tools menu
+#: addon\globalPlugins\cricricri\__init__.py:39
+msgid "&Cambiador de fechas para los manifiestos"
+msgstr "Manifest dosyaları için Tarih değiştiri&ci"
+
+#: addon\globalPlugins\cricricri\__init__.py:49
+msgid ""
+"Mostrar la ventana para cambiar la fecha  a los manifiestos de los "
+"complementos"
+msgstr ""
+"Eklentilerdeki Manifest dosyalarının tarihini değiştirmek için pencereyi "
+"göster"
+
+#. Translators: Title of the plug-in in the main dialogue
+#: addon\globalPlugins\cricricri\__init__.py:82
+msgid "Cambiador de fechas para los manifiestos"
+msgstr "Manifest dosyaları için tarih değiştirici"
+
+#. Translators: Label that identifies the list of add-ons
+#: addon\globalPlugins\cricricri\__init__.py:87
+msgid "&Lista de complementos / Fecha en el manifiesto:"
+msgstr "Manifest dosyaları ve Tarih &Listesi:"
+
+#. Translators: Button name to select all add-ons
+#: addon\globalPlugins\cricricri\__init__.py:99
+msgid "&Seleccionar todos"
+msgstr "Tümünü &Seç"
+
+#. Translators: Button name to deselect all add-ons
+#: addon\globalPlugins\cricricri\__init__.py:103
+msgid "&Deseleccionar todos"
+msgstr "Seçimi &Temizle"
+
+#: addon\globalPlugins\cricricri\__init__.py:112
+msgid "Seleccione versión Mayor:"
+msgstr "Ana sürümü seçin:"
+
+#: addon\globalPlugins\cricricri\__init__.py:116
+msgid "Seleccione versión Menor:"
+msgstr "Ara sürümü seçin:"
+
+#: addon\globalPlugins\cricricri\__init__.py:120
+msgid "Seleccione una revisión:"
+msgstr "Bir Düzeltme seçin:"
+
+#: addon\globalPlugins\cricricri\__init__.py:124
+msgid "&Aplicar cambios a los manifiestos"
+msgstr "Değişiklikleri Eklentilere &uygula"
+
+#. Translators: Exit button name
+#: addon\globalPlugins\cricricri\__init__.py:128
+msgid "&Cerrar"
+msgstr "&Kapat"
+
+#. Translators: Error message warning that no add-on was selected
+#: addon\globalPlugins\cricricri\__init__.py:183
+msgid "Necesita seleccionar por lo menos un complemento."
+msgstr "En az bir eklenti seçmelisiniz."
+
+#. Translators: Title of the dialog box no add-ons selected, Error
+#. Translators: Title of the dialog box, could not be completed. Error
+#: addon\globalPlugins\cricricri\__init__.py:185
+#: addon\globalPlugins\cricricri\__init__.py:319
+msgid "Error"
+msgstr "Hata"
+
+#: addon\globalPlugins\cricricri\__init__.py:251
+msgid ""
+"Se cambiaron los manifiestos correctamente.\n"
+"\n"
+"Para que la acción tenga efecto NVDA tiene que reiniciarse.\n"
+"\n"
+"¿Desea reiniciar NVDA ahora?"
+msgstr ""
+"Manifest dosyaları başarıyla değiştirildi.\n"
+"\n"
+"Değişikliklerin etkin olabilmesi için NVDA'nın yeniden başlatılması "
+"gerekir.\n"
+"\n"
+"NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#: addon\globalPlugins\cricricri\__init__.py:259
+msgid ""
+"Se produjo el siguiente error al cambiar los manifiestos:\n"
+"\n"
+"{}\n"
+"\n"
+"Si el problema persiste informe al autor del complemento CRICRICRI dándole "
+"este error."
+msgstr ""
+"Manifest dosyaları değiştirilirken aşağıdaki hata oluştu:\n"
+"\n"
+"{}\n"
+"\n"
+"Sorun devam ederse, Eklenti geliştiricisi ile iletişime girerek hatayı "
+"bildirin."
+
+#. Translators: Title of the progress dialog
+#: addon\globalPlugins\cricricri\__init__.py:271
+msgid "Cambiando manifiestos"
+msgstr "Değiştirilen Manifest dosyaları"
+
+#. Translators: Tag that asks the user to wait
+#: addon\globalPlugins\cricricri\__init__.py:282
+msgid "Espere por favor..."
+msgstr "Lütfen bekleyin..."
+
+#: addon\globalPlugins\cricricri\__init__.py:300
+msgid "Pregunta"
+msgstr "Uyarı"
