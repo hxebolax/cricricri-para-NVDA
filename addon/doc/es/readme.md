@@ -1,10 +1,5 @@
 # Manual de cricricri para NVDA
 
-*** This add-on is discontinued, it will not receive new versions ***.
-The code is given to the community for those who wish to continue it.
-*** Este complemento queda descontinuado, no recibirá nuevas versiones ***
-Queda el código cedido a la comunidad para quien desee continuarlo.
-
 Pequeño complemento que nos ayudara a cambiar la fecha de los manifiestos.
 
 Ahora según la última política de NVDA y hasta nuevos cambios, cada año en la primera versión de NVDA los programadores tendrán que cambiar la versión para hacer coincidir su manifiesto con la versión de NVDA.
